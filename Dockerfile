@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7.9.2009
 RUN yum install -y httpd \
   zip \
   unzip
